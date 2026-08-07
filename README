@@ -1,38 +1,9 @@
-# minigameConsole v1.55 – A Third-Party Tool to Make Debugging Easier
-
-Overall, this tool acts as a debug window (like CMD) for a game called **Mini World (Global Version)**. Simply open `minigameConsole.exe`, and everything you output using `print()` or `error()` from your in-game scripts will appear in this external debug window.
-
-## But... why?
-
-Yes, the game already shows debug output using `print()` in its built-in debug window. However, it's not convenient to keep the in-game debug window open all the time.
-
-To solve this, I created this tool to act as an external debug window, making the debugging process much easier and more convenient.
-
-Additionally, this tool acts like a real command prompt, so you can **copy** the debug output — something the in-game debug window doesn't allow.
-
-## What about text colors?
-
-Good question! Sometimes the printed content includes tags like `#R` or `#c00FF00`. Don’t worry — the CMD window can display colored text.
-
-Thanks to my custom algorithm built into the tool, the text color in the CMD window will match exactly what you'd see in the in-game debug window.
-
 ## Requirements
 
-Only one: CMD must support the `curl` command.
+CMD must support the `curl` command.
 
 ## Authors
 
 - [@MiniSquid208 (YouTube)](https://www.youtube.com/@MiniSquid208)  
 - `@zxm1343` (Discord)  
 - [Mực Nguyễn (Facebook)](https://www.facebook.com/zhangXiaomaru/)
-
-## Source Code?
-
-Here’s what I can reveal:
-
-- This tool runs on **Lua 5.2**.
-- The `"lang"` file is actually a renamed `lua52.exe`, which runs the code.
-- The `"api"` file contains all the Lua 5.2 libraries — like `math`, `string`, `coroutine`, `print`, etc.
-- The `"code"` file contains the actual program logic. It's sensitive, so I had to encode it.
-
-I understand you may be curious to see the Lua code behind this tool. If you're genuinely interested in learning (not stealing), feel free to message me on Facebook or DM me on Discord — I might share the decoded version.
